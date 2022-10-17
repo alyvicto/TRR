@@ -168,9 +168,7 @@
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
 											"});",
-											"pm.test(\"Set Auth token - Admin\", function () {",
-											"    pm.collectionVariables.set(\"adminBearerToken\", jsonData.data.upgradeLegacyToken.accessToken);",
-											"});"
+											""
 										],
 										"type": "text/javascript"
 									}
@@ -3447,27 +3445,27 @@
 	],
 	"variable": [
 		{
-			"id": "1dd3e734-5f2d-40b5-b143-fa98c78d1558",
+			"id": "1eafbdfe-53c0-42a9-ad4f-4e813b11f63d",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "5a5205a1-a6ba-40dd-82e1-0a3124885a50",
+			"id": "7bbcf53b-3270-4c76-aa28-cd5fd3f6fabc",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "9851860a-ce39-4fc9-b2ff-87951e2383d2",
+			"id": "ded61622-d71e-40e3-8706-be7192e797b4",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "5a39e0c1-808b-4aff-8125-6bbb1c7bad1c",
+			"id": "fcb3eb05-b188-4761-8101-89079e01dbbf",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "90d56be8-7384-466d-8dc5-f76c64ce846d",
+			"id": "66fc506f-9e3f-4129-b05c-72e4bdf5e5c4",
 			"key": "userLastName",
 			"value": ""
 		}
