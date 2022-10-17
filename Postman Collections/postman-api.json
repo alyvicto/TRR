@@ -207,7 +207,7 @@
 											"    pm.response.to.have.status(200);",
 											"});",
 											"pm.test(\"Set Auth token - User\", function () {",
-											"    pm.environment.set(\"userBearerToken\", jsonData.data.upgradeLegacyToken.accessToken);",
+											"    pm.collectionVariables.set(\"userBearerToken\", jsonData.data.upgradeLegacyToken.accessToken);",
 											"});"
 										],
 										"type": "text/javascript"
@@ -3449,27 +3449,27 @@
 	],
 	"variable": [
 		{
-			"id": "013c2c45-4dcd-4ea3-b3b4-e3bb6a30bf28",
+			"id": "cf9d2995-143a-4565-8bac-ea29d48b0cc2",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "add4c0bf-4297-468d-bc71-6b9d54184583",
+			"id": "ae8b8c2a-adb2-48f3-872c-65db917dc2e5",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "0a68d208-f3be-4703-93b0-1621e1da202f",
+			"id": "a26e2915-c8aa-49b5-ae10-fc40add25304",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "6f3c41f1-ba44-4d7f-9f11-fc6a5551dc58",
+			"id": "1135a29f-6a24-423e-9d1a-44a0f8ab6544",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "9a9185e6-54e3-4b5d-bdab-263886df0044",
+			"id": "95f37999-f0bd-4e26-bbca-04210b3efb3c",
 			"key": "userLastName",
 			"value": ""
 		}
