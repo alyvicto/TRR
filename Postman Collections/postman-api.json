@@ -169,7 +169,7 @@
 											"    pm.response.to.have.status(200);",
 											"});",
 											"pm.test(\"Set Auth token - Admin\", function () {",
-											"    pm.environment.set(\"adminBearerToken\", jsonData.data.upgradeLegacyToken.accessToken);",
+											"    pm.collectionVariables.set(\"adminBearerToken\", jsonData.data.upgradeLegacyToken.accessToken);",
 											"});"
 										],
 										"type": "text/javascript"
@@ -3449,27 +3449,27 @@
 	],
 	"variable": [
 		{
-			"id": "be607306-3244-4fa6-bc0b-68f7512bba55",
+			"id": "013c2c45-4dcd-4ea3-b3b4-e3bb6a30bf28",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "5c2bf2fc-be20-4bdb-be95-f8c7a79f561b",
+			"id": "add4c0bf-4297-468d-bc71-6b9d54184583",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "fea9b6f5-d430-4ea2-b0ac-cc3c8a74a8e5",
+			"id": "0a68d208-f3be-4703-93b0-1621e1da202f",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "d140e50b-264b-4a84-9ee8-12c1a9a9278a",
+			"id": "6f3c41f1-ba44-4d7f-9f11-fc6a5551dc58",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "0e832424-08a5-4783-875f-3ab456f9c09b",
+			"id": "9a9185e6-54e3-4b5d-bdab-263886df0044",
 			"key": "userLastName",
 			"value": ""
 		}
