@@ -3413,6 +3413,64 @@
 				}
 			],
 			"id": "d7e14cd9-5a32-4092-8429-c58ffef434ea"
+		},
+		{
+			"name": "Helpers",
+			"item": [
+				{
+					"name": "Standard test cases",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f81f6036-7abb-4c4d-8b7d-7fafb753145b",
+								"exec": [
+									"//Asserts status value",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"//turns body into json",
+									"var jsonData = JSON.parse(responseBody);",
+									"",
+									"//Does response contain error or not",
+									"pm.test(\"Response body contains error\", function(){",
+									"    pm.expect(!jsonData.hasOwnProperty(\"error\"));",
+									"});",
+									"",
+									"pm.test(\"Response body contains error\", function(){",
+									"    pm.expect(jsonData.hasOwnProperty(\"error\"));",
+									"});",
+									"",
+									"//Is valid body empty or not",
+									"pm.test(\"Response body is not empty\", function(){",
+									"    pm.expect(jsonData.data.<BODY>).is.not.empty;",
+									"});",
+									"//Is a body value what is expected?",
+									"pm.test(\"Response contains product id\", function(){",
+									"    pm.expect(jsonData.data.<FIELD_TO_COMPARE>).to.eql(pm.environment.get(<VARIABLE_NAME>));",
+									"});",
+									"",
+									"//Set a collection (or environment) variable",
+									"pm.collectionVariables.set(\"<VARIABLE_NAME>\", jsonData.data.<BODY_VALUE>);",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "411bed82-54b4-4a79-b90e-d97604e6dc36",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "3bde9a3f-b84b-4708-90da-052370de00ea"
 		}
 	],
 	"event": [
@@ -3445,27 +3503,27 @@
 	],
 	"variable": [
 		{
-			"id": "1eafbdfe-53c0-42a9-ad4f-4e813b11f63d",
+			"id": "3607c358-0f70-4542-8434-4a35fd925104",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "7bbcf53b-3270-4c76-aa28-cd5fd3f6fabc",
+			"id": "ff0155fb-6894-482b-875b-555c75aac391",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "ded61622-d71e-40e3-8706-be7192e797b4",
+			"id": "dd89ff34-f0de-42a3-8723-aa6768c12821",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "fcb3eb05-b188-4761-8101-89079e01dbbf",
+			"id": "ddc737f9-7565-4ffb-ba00-6096a24dfaad",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "66fc506f-9e3f-4129-b05c-72e4bdf5e5c4",
+			"id": "18326815-ab1e-4f14-8399-50b8652457c7",
 			"key": "userLastName",
 			"value": ""
 		}
