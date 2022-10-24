@@ -3433,7 +3433,7 @@
 									"var jsonData = JSON.parse(responseBody);",
 									"",
 									"//Does response contain error or not",
-									"pm.test(\"Response body contains error\", function(){",
+									"pm.test(\"Response body does not contain error\", function(){",
 									"    pm.expect(!jsonData.hasOwnProperty(\"error\"));",
 									"});",
 									"",
@@ -3503,27 +3503,27 @@
 	],
 	"variable": [
 		{
-			"id": "9d2b043c-3d52-4eb0-ac73-310b57a1252c",
+			"id": "b46e3687-9630-420b-be05-75235fefaeb8",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "a49f397c-2140-48b0-b74d-fcc720c282b4",
+			"id": "bce0d618-ea91-442a-bad7-c80c67ee5e25",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "7965e6c0-0660-418b-a597-3781d41b17ae",
+			"id": "7eda15bd-5c3b-4a50-9990-58d6972a8a8d",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "d0c1b6e7-50e1-43d7-9449-0c1c4dd6be0f",
+			"id": "ba9624d7-c15a-4f9a-9dde-3944301228a6",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "e5ed1e54-89ce-441d-ac31-86ce76db179a",
+			"id": "9c40be8e-5bf6-40f8-ab8a-c33fd9bb48d8",
 			"key": "userLastName",
 			"value": ""
 		}
