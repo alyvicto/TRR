@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "b2562b7b-2032-4705-a9e0-c5dd69a2740a",
 		"name": "TheRealReal-TestLibrary",
-		"description": "This collection houses reusable queries and mutations with their assertions and default dynamic variable inputs.\n\nMost entries will not work standalone in this Collection and need to be chained together in Regression Testing.",
+		"description": "This collection houses reusable queries and mutations with their assertions and default dynamic variable inputs.\n\nThis folder should be up to date with the schema",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
@@ -3503,27 +3503,27 @@
 	],
 	"variable": [
 		{
-			"id": "5a3bc569-2b41-40c4-92e0-4fd26cc9fb46",
+			"id": "cbafa930-8057-4114-a2d7-77f23134b8be",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "93b454de-84d8-44f8-805b-898bd3a0917e",
+			"id": "c13a6d92-2168-4a83-a7ff-e1df8c362b41",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "77ddcbcc-9ebd-4f8b-afcd-0d1a88ccf918",
+			"id": "9ebcfbb9-3841-499a-b68d-01b976974ce6",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "d503609e-4dad-4350-8726-2a87cc140780",
+			"id": "236c173f-50f1-4357-9ff1-d0b3a38872b7",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "940f48eb-9823-4727-872a-40f6b82b7a77",
+			"id": "13117d70-72a1-42d5-a1ef-86709b3e5376",
 			"key": "userLastName",
 			"value": ""
 		}
