@@ -3433,12 +3433,12 @@
 									"var jsonData = JSON.parse(responseBody);",
 									"",
 									"//Does response contain error or not",
-									"pm.test(\"Response body does not contain error\", function(){",
-									"    pm.expect(!jsonData.hasOwnProperty(\"error\"));",
+									"pm.test(\"Response body contains error\", function () {",
+									"    pm.expect(pm.response.text()).not.to.include(\"error\");",
 									"});",
 									"",
-									"pm.test(\"Response body contains error\", function(){",
-									"    pm.expect(jsonData.hasOwnProperty(\"error\"));",
+									"pm.test(\"Response body contains error\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"error\");",
 									"});",
 									"",
 									"//Is valid body empty or not",
@@ -3503,27 +3503,27 @@
 	],
 	"variable": [
 		{
-			"id": "b46e3687-9630-420b-be05-75235fefaeb8",
+			"id": "5a3bc569-2b41-40c4-92e0-4fd26cc9fb46",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "bce0d618-ea91-442a-bad7-c80c67ee5e25",
+			"id": "93b454de-84d8-44f8-805b-898bd3a0917e",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "7eda15bd-5c3b-4a50-9990-58d6972a8a8d",
+			"id": "77ddcbcc-9ebd-4f8b-afcd-0d1a88ccf918",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "ba9624d7-c15a-4f9a-9dde-3944301228a6",
+			"id": "d503609e-4dad-4350-8726-2a87cc140780",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "9c40be8e-5bf6-40f8-ab8a-c33fd9bb48d8",
+			"id": "940f48eb-9823-4727-872a-40f6b82b7a77",
 			"key": "userLastName",
 			"value": ""
 		}
