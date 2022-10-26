@@ -3507,8 +3507,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": "{{url}}/graphql"
 					},
 					"response": []
 				}
@@ -3546,27 +3547,27 @@
 	],
 	"variable": [
 		{
-			"id": "976749c3-e6d3-4442-9be4-09daf151e159",
+			"id": "4a319fa2-2827-4deb-b102-74daf7068bf7",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "3fa27cfb-2ca3-413f-905b-5e06167f8fd6",
+			"id": "f6646a67-abe4-4fd9-8fe5-c9a015e2e4b1",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "7d695985-530c-4e55-b8dd-d677ea411ce2",
+			"id": "b5e2e35b-4a35-4e60-8e66-67ef49339ec9",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "983c3c80-d1f8-41e9-aa8e-b4efff24bdef",
+			"id": "2f953809-7b3b-4516-b946-d89fb2abfe91",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "17a34f69-592a-4f43-bcae-99663e905794",
+			"id": "e3f8c4a7-23ff-41a9-b417-4b6e4508e886",
 			"key": "userLastName",
 			"value": ""
 		}
