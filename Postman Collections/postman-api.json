@@ -3484,7 +3484,7 @@
 								"id": "e6d073bf-3ea5-45cd-80a1-01cc1e44e4f3",
 								"exec": [
 									"//making a GQL call and setting a variable",
-									"let testEmail = \"apiTester+\"Number(new Date())+\"@ex.com\"",
+									"let testEmail = \"apiTester+\"Number(new Date())+\"@ex.com\";",
 									"const createUserBeforeRequest = {",
 									"  url: pm.environment.get(\"gatewayUrl\") + '/v2/users',",
 									"  method: 'POST',",
@@ -3548,27 +3548,27 @@
 	],
 	"variable": [
 		{
-			"id": "bd9e1140-260d-497f-bc94-d686b2419c2a",
+			"id": "cac4b594-d4c0-44d7-ad40-13c898ea1734",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "190e05a9-8b90-415f-8a72-0660c1bcdb35",
+			"id": "135bc8eb-638f-43ee-a279-b944ce98fb12",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "b67d5cbf-af89-40ce-acd3-616eca0b05c8",
+			"id": "e922cc00-d033-41d7-b5cd-e7d7dd5808fa",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "432dc858-5cbb-4aec-aef8-8b083034a71d",
+			"id": "ad2b0b1f-9530-4168-8216-931219655a40",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "d1375f15-112c-44e3-b951-e01851d81a5f",
+			"id": "ce177aea-a316-4067-920f-29bed2e15a6e",
 			"key": "userLastName",
 			"value": ""
 		}
