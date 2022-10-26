@@ -3490,10 +3490,10 @@
 									"  header: {",
 									"   'content-type': 'application/json',",
 									"  body: JSON.stringify({query: '{\"user\": {\"email\": \"apiTester@therealreal.com\",\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'})",
-									"};",
+									"}}",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
-									"    pm.expect(response.code).to.eql(201);",
+									"    pm.expect(response.code).to.eql(200);",
 									"   ",
 									"    // set collection variable from the response",
 									" });"
@@ -3547,27 +3547,27 @@
 	],
 	"variable": [
 		{
-			"id": "4a319fa2-2827-4deb-b102-74daf7068bf7",
+			"id": "81a066a1-eb38-44f7-80c9-5b8edbb7962f",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "f6646a67-abe4-4fd9-8fe5-c9a015e2e4b1",
+			"id": "8bd68d89-e323-4038-bd4f-ffb13149055c",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "b5e2e35b-4a35-4e60-8e66-67ef49339ec9",
+			"id": "8c66f741-360b-482e-90dd-6f4141384c26",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "2f953809-7b3b-4516-b946-d89fb2abfe91",
+			"id": "c00d92f6-81b0-4ed3-9763-42c19136173e",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "e3f8c4a7-23ff-41a9-b417-4b6e4508e886",
+			"id": "5f7952fc-11ae-4b30-977d-b3ea2190044d",
 			"key": "userLastName",
 			"value": ""
 		}
