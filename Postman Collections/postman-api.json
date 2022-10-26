@@ -3490,6 +3490,7 @@
 									"  header: {",
 									"   'content-type': 'application/json',",
 									"   'connection': 'keep-alive',",
+									"   'Accept': '*/*',",
 									"  body: JSON.stringify({query: '{\"user\": {\"email\": \"apiTester@therealreal.com\",\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'})",
 									"}}",
 									" ",
@@ -3548,27 +3549,27 @@
 	],
 	"variable": [
 		{
-			"id": "fd33d8aa-e855-40d7-bda4-08f57cb7fc75",
+			"id": "a558dda1-e25b-4e30-aa22-877d10b7511c",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "abaa2d4f-e182-48b2-905b-91d1fedcafd3",
+			"id": "34edf459-6d74-4bd5-ba63-44b0474ef6ed",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "0740bd8b-6304-44a1-97b6-0b14877a8ad7",
+			"id": "b08ae2ea-e63d-4426-ab24-68581d0150fc",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "2fbc5161-a021-458b-a6a0-72974b55ceb4",
+			"id": "f75090b3-deb2-4451-b5c4-afa84aa42bfd",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "c754f74c-c58e-4471-b736-40c46e3ae0ca",
+			"id": "d58c3850-f571-4210-b0e8-15deb6a53483",
 			"key": "userLastName",
 			"value": ""
 		}
