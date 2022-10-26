@@ -3490,7 +3490,7 @@
 									"  method: 'POST',",
 									"  header: {",
 									"   'Content-Type': 'application/json'},",
-									"  body: JSON.stringify({query: '{\"user\": {\"email\": testEmail,\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'})",
+									"  body: JSON.stringify({query: '{\"user\": {\"email\": ${testEmail},\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'})",
 									"};",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
@@ -3548,27 +3548,27 @@
 	],
 	"variable": [
 		{
-			"id": "b1d5228c-c672-4972-8161-f16411f5eda2",
+			"id": "0b51415d-96d1-460f-bd18-fa382b4d5e2c",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "98190f4b-bf8d-457d-8449-b770cb333c37",
+			"id": "a8b17e23-3ebe-43c9-a49e-12d8cfcad296",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "b5c5e1fd-15ae-4d2b-94db-1dbf9f7ecf3e",
+			"id": "6fa012f4-22db-4656-bdf2-b6919025e363",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "3794ddf4-3fde-4825-8209-e514f97c4fbf",
+			"id": "820f04fd-6e95-4cca-9821-43f48a8416f6",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "61f0a98b-bde8-4ff8-832a-f687923e10a3",
+			"id": "19ce3a10-d1c4-4eb9-9490-a3498a6bd721",
 			"key": "userLastName",
 			"value": ""
 		}
