@@ -3476,7 +3476,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Pre-request scripts",
 					"id": "b32f4236-7379-4f10-bdb2-be89c6081413",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3521,27 +3521,27 @@
 	],
 	"variable": [
 		{
-			"id": "7a9aab0c-ba2a-4574-b986-81150c84c1f4",
+			"id": "aad8b58d-6929-4b0c-809a-43283534d3e1",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "fcc8d984-4f80-47e4-8a38-df21d3439a75",
+			"id": "bdf2071f-8c75-4e86-80d0-95dbd01fb8ee",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "d7e78270-93d3-485c-be81-c86e7cafa7b7",
+			"id": "f317d2cd-6c87-42ec-b93a-7cd70b275e95",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "43a767e9-1315-4179-99c6-02f1edfcf169",
+			"id": "d9055997-c668-4d50-8bf3-7bde250f0945",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "7053af5c-9a87-49b9-9d8f-3a1bfdc3fa78",
+			"id": "e799f812-551a-4116-ba2d-1416e9586087",
 			"key": "userLastName",
 			"value": ""
 		}
