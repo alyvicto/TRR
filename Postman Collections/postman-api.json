@@ -3474,6 +3474,18 @@
 						"header": []
 					},
 					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "b32f4236-7379-4f10-bdb2-be89c6081413",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "3bde9a3f-b84b-4708-90da-052370de00ea"
@@ -3509,27 +3521,27 @@
 	],
 	"variable": [
 		{
-			"id": "4aedfdad-87e3-46c2-b5be-937b5c0d5fd8",
+			"id": "7a9aab0c-ba2a-4574-b986-81150c84c1f4",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "ec9c3ca6-dd18-4969-bed5-6b30d047c917",
+			"id": "fcc8d984-4f80-47e4-8a38-df21d3439a75",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "df47f079-83e9-4587-86f2-599ce7023c15",
+			"id": "d7e78270-93d3-485c-be81-c86e7cafa7b7",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "4505b202-b195-4593-b5ee-2d0dc952a064",
+			"id": "43a767e9-1315-4179-99c6-02f1edfcf169",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "fc6b61f4-c485-4f45-ac7a-fc32626ae0e1",
+			"id": "7053af5c-9a87-49b9-9d8f-3a1bfdc3fa78",
 			"key": "userLastName",
 			"value": ""
 		}
