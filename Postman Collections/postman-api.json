@@ -3489,7 +3489,6 @@
 									"  method: 'POST',",
 									"  header: {",
 									"   'content-type': 'application/json',",
-									"   'Authorization': `Bearer ${pm.collectionVariables.get(\"token\")}`},",
 									"  body: JSON.stringify({query: '{ user { profile {id} } }'})",
 									"};",
 									" ",
@@ -3547,27 +3546,27 @@
 	],
 	"variable": [
 		{
-			"id": "f635b00c-3f6d-4bc7-8d1c-8558a893e9f6",
+			"id": "4456f4ba-2417-4764-8b23-766d724caed0",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "07d99c99-47b0-436b-b557-82ecdd9e5862",
+			"id": "93c2e9ff-962a-484e-9567-57ced5c12ded",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "1b72aa61-c1ed-45c3-a680-d954636d9cde",
+			"id": "9696daf3-cbe1-4288-a183-545f9487005a",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "5f128148-8718-4d58-9141-3adaed364756",
+			"id": "bf750929-39d6-4ee1-ab02-fd9cdb8006c8",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "8d3b5442-7cf1-430a-b9d9-25c6949b2e40",
+			"id": "b06d6026-4317-46b1-8f6e-0a38065e9d84",
 			"key": "userLastName",
 			"value": ""
 		}
