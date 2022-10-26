@@ -3484,8 +3484,8 @@
 								"id": "e6d073bf-3ea5-45cd-80a1-01cc1e44e4f3",
 								"exec": [
 									"//making a GQL call and setting a variable",
-									"const getUserBeforeUpdate = {",
-									"  url: pm.collectionVariables.get(\"url\"),",
+									"const createUserBeforeRequest = {",
+									"  url: pm.collectionVariables.get(\"gatewayUrl\") + '/v2/users',",
 									"  method: 'POST',",
 									"  header: {",
 									"   'content-type': 'application/json',",
@@ -3547,27 +3547,27 @@
 	],
 	"variable": [
 		{
-			"id": "da8019e1-9743-40b3-a9cf-3452138c91a6",
+			"id": "f635b00c-3f6d-4bc7-8d1c-8558a893e9f6",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "413278cb-962b-4157-8046-664d32fffeda",
+			"id": "07d99c99-47b0-436b-b557-82ecdd9e5862",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "d35d5c2b-dc1a-4ccf-8280-8778df871246",
+			"id": "1b72aa61-c1ed-45c3-a680-d954636d9cde",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "4eeac766-d422-46dc-969e-655e0aee5cd9",
+			"id": "5f128148-8718-4d58-9141-3adaed364756",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "01640e08-4dd3-4884-874c-d134c3e270d6",
+			"id": "8d3b5442-7cf1-430a-b9d9-25c6949b2e40",
 			"key": "userLastName",
 			"value": ""
 		}
