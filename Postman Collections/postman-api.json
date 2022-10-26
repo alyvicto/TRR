@@ -3485,12 +3485,14 @@
 								"exec": [
 									"//making a GQL call and setting a variable",
 									"let testEmail = \"apiTester+\"+Number(new Date())+\"@ex.com\";",
+									"let queryRequest = '{\"user\": {\"email\": ${testEmail},\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'",
+									"",
 									"const createUserBeforeRequest = {",
 									"  url: pm.environment.get(\"gatewayUrl\") + '/v2/users',",
 									"  method: 'POST',",
 									"  header: {",
 									"   'Content-Type': 'application/json'},",
-									"  body: JSON.stringify({query: '{\"user\": {\"email\": ${testEmail},\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}'})",
+									"  body: JSON.stringify({query: ''})",
 									"};",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
@@ -3548,27 +3550,27 @@
 	],
 	"variable": [
 		{
-			"id": "0b51415d-96d1-460f-bd18-fa382b4d5e2c",
+			"id": "6af5dd9a-8c02-49ae-8d30-3474dcbb25c7",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "a8b17e23-3ebe-43c9-a49e-12d8cfcad296",
+			"id": "c3eaf5fe-166c-454e-90b7-534279358106",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "6fa012f4-22db-4656-bdf2-b6919025e363",
+			"id": "571b0ed1-17ac-46aa-a0ae-5885c873920a",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "820f04fd-6e95-4cca-9821-43f48a8416f6",
+			"id": "736a1e74-5133-445e-b378-f371ec8dd035",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "19ce3a10-d1c4-4eb9-9490-a3498a6bd721",
+			"id": "3684449b-63a5-4154-8424-f0bd5b0fcf82",
 			"key": "userLastName",
 			"value": ""
 		}
