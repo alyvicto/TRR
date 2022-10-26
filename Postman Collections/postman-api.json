@@ -25,7 +25,7 @@
 									"script": {
 										"id": "b7bc119c-dc9b-42d5-80ec-e1b628cd5170",
 										"exec": [
-											"var jsonData = JSON.parse(responseBody);",
+											"let jsonData = JSON.parse(responseBody);",
 											"pm.collectionVariables.set(\"userId\", jsonData.user.id);",
 											"pm.collectionVariables.set(\"userEmail\", jsonData.user.email);",
 											"pm.collectionVariables.set(\"userToken\", jsonData.authorization.token);",
@@ -76,7 +76,7 @@
 											"pm.test(\"Status code is 201\", function () {",
 											"    pm.response.to.have.status(201);",
 											"});",
-											" var jsonData = JSON.parse(responseBody);",
+											" let jsonData = JSON.parse(responseBody);",
 											"if (!jsonData.hasOwnProperty(\"error\")){",
 											"    pm.test(\"Response body does not contain error\", () => {",
 											"        console.log(\"Passed\");",
@@ -164,7 +164,7 @@
 									"script": {
 										"id": "55c5f263-506f-4ce3-8b4f-0d2c601207b4",
 										"exec": [
-											"var jsonData = JSON.parse(responseBody)",
+											"let jsonData = JSON.parse(responseBody)",
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
 											"});",
@@ -200,7 +200,7 @@
 									"script": {
 										"id": "55c5f263-506f-4ce3-8b4f-0d2c601207b4",
 										"exec": [
-											"var jsonData = JSON.parse(responseBody)",
+											"let jsonData = JSON.parse(responseBody)",
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
 											"});",
@@ -328,7 +328,7 @@
 											"pm.test(\"Status code is 200\", function () {",
 											"    pm.response.to.have.status(200);",
 											"});",
-											" var jsonData = JSON.parse(responseBody);",
+											" let jsonData = JSON.parse(responseBody);",
 											"if (!jsonData.hasOwnProperty(\"error\")){",
 											"    pm.test(\"Response body does not contain error\", () => {",
 											"        console.log(\"Passed\");",
@@ -672,7 +672,7 @@
 											"script": {
 												"id": "14955492-486b-450c-aac3-83cd6032b708",
 												"exec": [
-													"var jsonData = JSON.parse(responseBody);",
+													"let jsonData = JSON.parse(responseBody);",
 													"",
 													"pm.test(\"Status code is 200\", function () {",
 													"    pm.response.to.have.status(200);",
@@ -891,7 +891,7 @@
 													"pm.test(\"Status code is 200\", function () {",
 													"    pm.response.to.have.status(200);",
 													"});",
-													" var jsonData = JSON.parse(responseBody);",
+													" let jsonData = JSON.parse(responseBody);",
 													"if (!jsonData.hasOwnProperty(\"error\")){",
 													"    pm.test(\"Response body does not contain error\", () => {",
 													"        console.log(\"Passed\");",
@@ -1684,7 +1684,7 @@
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
 									"});",
-									" var jsonData = JSON.parse(responseBody);",
+									" let jsonData = JSON.parse(responseBody);",
 									"if (!jsonData.hasOwnProperty(\"error\")){",
 									"    pm.test(\"Response body does not contain error\", () => {",
 									"        console.log(\"Passed\");",
@@ -3537,7 +3537,7 @@
 				"id": "5bc82443-a9e6-4bcb-a927-4e49435aa271",
 				"type": "text/javascript",
 				"exec": [
-					"var jsonData = JSON.parse(responseBody);",
+					"let jsonData = JSON.parse(responseBody);",
 					"",
 					"pm.test(\"Status code is 200\", function () {",
 					"    pm.response.to.have.status(200);",
@@ -3550,27 +3550,27 @@
 	],
 	"variable": [
 		{
-			"id": "7797d5cb-c5de-4388-a934-7bca3fdd5348",
+			"id": "59601ae4-c947-4f6b-a6a2-fcac5a2c25a0",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "217078c1-fc71-4350-9e85-aafdff358d57",
+			"id": "ee974739-3829-40a7-919f-81b917ede7a5",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "442b259a-6772-4f8d-a497-7f8fc91694ac",
+			"id": "72b26e15-52fe-4aa2-80ad-cbd777b34c66",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "c41ac423-9fea-4124-a8f5-16d2a9b4f44e",
+			"id": "2a83cbdb-2d7d-46d9-8365-24f7485ca913",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "7955433f-9f97-4e1f-a2a3-b0c2ef7497eb",
+			"id": "0c03e18d-1780-463f-9e04-13f48e874cc4",
 			"key": "userLastName",
 			"value": ""
 		}
