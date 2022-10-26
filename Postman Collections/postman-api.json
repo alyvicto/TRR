@@ -3493,7 +3493,7 @@
 									"  method: 'POST',",
 									"  header: {",
 									"   'Content-Type': 'application/json'},",
-									"  body: queryRequest",
+									"  body: JSON.stringify(queryRequest)",
 									"};",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
@@ -3551,27 +3551,27 @@
 	],
 	"variable": [
 		{
-			"id": "3aef0a1e-26b1-4c3d-a3e9-0c0200d3c655",
+			"id": "cb2d348b-89f3-410e-869e-ec9ec7481780",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "8b63e376-7050-4bec-909a-9ab73da9e91a",
+			"id": "2ebea771-6535-4bb2-acdc-e5b7f24396a8",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "9762eda7-fd87-4f1c-a0ab-46f3836a9ebb",
+			"id": "09b51232-eed8-440a-be03-1a94ac075590",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "d1dcaaf3-c65b-4288-a126-85ca81c138c5",
+			"id": "dda02ce8-d46c-440b-891e-fa76ebcf5a42",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "b04c41c2-6327-45e1-9368-a88473fa6a19",
+			"id": "930f7acf-3a45-47b6-87a3-e6b5f28e6477",
 			"key": "userLastName",
 			"value": ""
 		}
