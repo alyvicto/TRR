@@ -3453,7 +3453,13 @@
 									"//Set a collection (or environment) variable",
 									"pm.collectionVariables.set(\"<VARIABLE_NAME>\", jsonData.data.<BODY_VALUE>);",
 									"",
-									""
+									"//iterate through an array",
+									"pm.test(\"<TEST CASE NAME>\", function(){",
+									"    let arrayLength = <ARRAY_PATH>.length;",
+									"    for(let i = 0; i < arrayLength; i++){",
+									"        pm.expect(<ARRAY_PATH>[i].type).is.not.empty;",
+									"    }",
+									"});"
 								],
 								"type": "text/javascript"
 							}
@@ -3503,27 +3509,27 @@
 	],
 	"variable": [
 		{
-			"id": "7a99c4c1-1956-407a-a38d-7421c9ef66cb",
+			"id": "4aedfdad-87e3-46c2-b5be-937b5c0d5fd8",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "027d61f4-8e5d-424e-bfad-3d894ab22d27",
+			"id": "ec9c3ca6-dd18-4969-bed5-6b30d047c917",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "c8028f8c-d5bd-4ca9-89fa-aa67b227e89c",
+			"id": "df47f079-83e9-4587-86f2-599ce7023c15",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "328036e3-0555-410f-a7d5-acd701f71a5a",
+			"id": "4505b202-b195-4593-b5ee-2d0dc952a064",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "215d4307-66fb-47ba-8fb7-6f52b568c509",
+			"id": "fc6b61f4-c485-4f45-ac7a-fc32626ae0e1",
 			"key": "userLastName",
 			"value": ""
 		}
