@@ -3493,7 +3493,7 @@
 									"  method: 'POST',",
 									"  header: {",
 									"   'Content-Type': 'application/json'},",
-									"  body: JSON.stringify({query: ''})",
+									"  body: JSON.stringify({query: ${queryRequest}})",
 									"};",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
@@ -3551,27 +3551,27 @@
 	],
 	"variable": [
 		{
-			"id": "bcc42981-99c9-4f6c-8473-e5ae451c5cea",
+			"id": "7f681c86-1752-4edb-bad6-eb60f2f1000e",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "1a88be5b-0c74-49e5-a604-17ebf236aec9",
+			"id": "e7ae30ea-7857-437c-a993-652b06419503",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "2c1f346c-18a7-4f52-94a0-b196a598620e",
+			"id": "5da74286-4b13-4ca4-ab07-58bd8912c822",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "73b1c35b-6c6a-4621-a24f-2a495081a9c3",
+			"id": "b317195c-21d9-4599-81c3-72a20af0d78e",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "ee8dcc02-82b8-49cd-8850-bef4dd3976df",
+			"id": "87bd64d3-b962-4895-934f-e10e4140aa9c",
 			"key": "userLastName",
 			"value": ""
 		}
