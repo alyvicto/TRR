@@ -3485,7 +3485,7 @@
 								"exec": [
 									"//making a GQL call and setting a variable",
 									"let testEmail = \"apiTester+\"+Number(new Date())+\"@ex.com\";",
-									"let queryRequest = '{\"user\": {\"email\": ${testEmail},\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}';",
+									"let queryRequest = '{\"user\": {\"email\": testEmail,\"password\": \"therealdeal1\",\"first_name\": \"Postman\", \"last_name\": \"TRR\"}}';",
 									"console.log(queryRequest);",
 									"",
 									"const createUserBeforeRequest = {",
@@ -3551,27 +3551,27 @@
 	],
 	"variable": [
 		{
-			"id": "2f04ad80-ceb6-47f3-bf45-61f53256c656",
+			"id": "9813469f-edd4-48a9-87b2-163d164a2454",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "6df3d9a8-e36d-4473-bf31-6a17c4fd9bcd",
+			"id": "7681d7ca-0dda-4241-b7b1-4906dd9a442d",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "5b96bc72-435a-49d9-ad4f-9fa323d3a16d",
+			"id": "fc30f3e8-5818-44ea-8957-61c8c8a26a43",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "31a043b8-b164-4fd0-bf67-1181ea660cd9",
+			"id": "6a93a903-8fda-400b-86ca-142f47c87dbe",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "4d411b9a-0003-450d-b2f8-8f7ac988115b",
+			"id": "161696ce-c7b5-4be5-bffe-c29d803d076f",
 			"key": "userLastName",
 			"value": ""
 		}
