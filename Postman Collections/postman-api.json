@@ -3477,6 +3477,32 @@
 				},
 				{
 					"name": "Pre-request scripts",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "e6d073bf-3ea5-45cd-80a1-01cc1e44e4f3",
+								"exec": [
+									"//making a GQL call and setting a variable",
+									"const getUserBeforeUpdate = {",
+									"  url: pm.collectionVariables.get(\"url\"),",
+									"  method: 'POST',",
+									"  header: {",
+									"   'content-type': 'application/json',",
+									"   'Authorization': `Bearer ${pm.collectionVariables.get(\"token\")}`},",
+									"  body: JSON.stringify({query: '{ user { profile {id} } }'})",
+									"};",
+									" ",
+									" pm.sendRequest(getUserBeforeUpdate, function(err, response) {",
+									"    pm.expect(response.code).to.eql(200);",
+									"   ",
+									"    // set collection variable from the response",
+									" });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "b32f4236-7379-4f10-bdb2-be89c6081413",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -3521,27 +3547,27 @@
 	],
 	"variable": [
 		{
-			"id": "aad8b58d-6929-4b0c-809a-43283534d3e1",
+			"id": "da8019e1-9743-40b3-a9cf-3452138c91a6",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "bdf2071f-8c75-4e86-80d0-95dbd01fb8ee",
+			"id": "413278cb-962b-4157-8046-664d32fffeda",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "f317d2cd-6c87-42ec-b93a-7cd70b275e95",
+			"id": "d35d5c2b-dc1a-4ccf-8280-8778df871246",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "d9055997-c668-4d50-8bf3-7bde250f0945",
+			"id": "4eeac766-d422-46dc-969e-655e0aee5cd9",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "e799f812-551a-4116-ba2d-1416e9586087",
+			"id": "01640e08-4dd3-4884-874c-d134c3e270d6",
 			"key": "userLastName",
 			"value": ""
 		}
