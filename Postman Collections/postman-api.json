@@ -3493,7 +3493,7 @@
 									"}}",
 									" ",
 									" pm.sendRequest(createUserBeforeRequest, function(err, response) {",
-									"    pm.expect(response.code).to.eql(200);",
+									"    pm.expect(response.code).to.eql(201);",
 									"   ",
 									"    // set collection variable from the response",
 									" });"
@@ -3547,27 +3547,27 @@
 	],
 	"variable": [
 		{
-			"id": "8c2dd691-125d-48c2-b594-99e383995c98",
+			"id": "8af6134d-d147-4079-8adc-a408e653372a",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "a98388a3-36a9-44e4-b824-abe43deec6a2",
+			"id": "9f4cf286-a011-4311-95cf-e34892c50f79",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "81674233-4253-4ef3-977a-87730f7572c8",
+			"id": "1ea3d408-8c4d-46f6-ac5e-4b6cc6e1b255",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "724217ed-c16f-46ab-a9e6-df0cba599136",
+			"id": "f2d56f41-4f69-49f4-bae8-84e771255c0b",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "6c9d382f-b8e8-404b-8707-b50446ae50f4",
+			"id": "728f5dcc-6d9e-4f3b-aabb-3c46c50b2d56",
 			"key": "userLastName",
 			"value": ""
 		}
