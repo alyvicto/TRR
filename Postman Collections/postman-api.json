@@ -3430,7 +3430,7 @@
 									"    pm.response.to.have.status(200);",
 									"});",
 									"//turns body into json",
-									"var jsonData = JSON.parse(responseBody);",
+									"let jsonData = JSON.parse(responseBody);",
 									"",
 									"//Does response contain error or not",
 									"pm.test(\"Response body contains error\", function () {",
@@ -3503,27 +3503,27 @@
 	],
 	"variable": [
 		{
-			"id": "cbafa930-8057-4114-a2d7-77f23134b8be",
+			"id": "7a99c4c1-1956-407a-a38d-7421c9ef66cb",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "c13a6d92-2168-4a83-a7ff-e1df8c362b41",
+			"id": "027d61f4-8e5d-424e-bfad-3d894ab22d27",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "9ebcfbb9-3841-499a-b68d-01b976974ce6",
+			"id": "c8028f8c-d5bd-4ca9-89fa-aa67b227e89c",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "236c173f-50f1-4357-9ff1-d0b3a38872b7",
+			"id": "328036e3-0555-410f-a7d5-acd701f71a5a",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "13117d70-72a1-42d5-a1ef-86709b3e5376",
+			"id": "215d4307-66fb-47ba-8fb7-6f52b568c509",
 			"key": "userLastName",
 			"value": ""
 		}
