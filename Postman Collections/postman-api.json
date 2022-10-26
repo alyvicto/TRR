@@ -3537,7 +3537,7 @@
 				"id": "5bc82443-a9e6-4bcb-a927-4e49435aa271",
 				"type": "text/javascript",
 				"exec": [
-					"let jsonData = JSON.parse(responseBody);",
+					"var jsonData = JSON.parse(responseBody);",
 					"",
 					"pm.test(\"Status code is 200\", function () {",
 					"    pm.response.to.have.status(200);",
@@ -3550,27 +3550,27 @@
 	],
 	"variable": [
 		{
-			"id": "101db0e9-a846-4000-bdb8-21a0e0466a4b",
+			"id": "7be6fe2c-20cf-4ab6-83cf-6ce2061b2316",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "0397858f-4bc8-40a9-b1dd-c2b719312fdd",
+			"id": "6b9d9735-dfe1-4b9b-97c4-fcc040efa8df",
 			"key": "userEmail",
 			"value": ""
 		},
 		{
-			"id": "670fc2e9-fb68-469f-b247-6e8c3c93625f",
+			"id": "394d1a25-0476-421a-a53a-915db451b479",
 			"key": "userToken",
 			"value": ""
 		},
 		{
-			"id": "fdc1e406-c617-48d5-bd35-c031d0d50e66",
+			"id": "40be7c54-ed50-4f3b-8d37-8327359f7c37",
 			"key": "userFirstName",
 			"value": ""
 		},
 		{
-			"id": "635715cb-1441-4eed-9fbf-d0843ebe94f8",
+			"id": "c71d607c-f8b6-4761-adda-4324037227ac",
 			"key": "userLastName",
 			"value": ""
 		}
